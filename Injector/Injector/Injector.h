@@ -2,6 +2,8 @@
 #include <string>
 #include <memory>
 
+using namespace std;
 
 int main();
-std::string getErrorMessage(int errorNumber);
+string getErrorMessage(int errorNumber);
+void printMessage(HANDLE result, string &functionName);
